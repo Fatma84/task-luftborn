@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --bg-color: #0E1323;
+    --primary-color: #1C204B;
+    --secondary-color: #5747EA;
+    --text-color-1: #BBC0FF;
+    --text-color-2: #7078C9;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 25px 0;
+    overflow: hidden;
+}

@@ -1,0 +1,24 @@
+<div class="item" [ngStyle]="{backgroundColor: color}" @fadeInRightOnEnter>
+    <!-- Item Details -->
+    <div class="item-details">
+        <div class="item-header">
+            <h3 class="category">{{item.category}}</h3>
+            <p class="dots">...</p>
+        </div>
+
+        <div class="item-content">
+            <p class="item-price">
+                {{item.price}}$
+            </p>
+
+            <div class="item-body">
+                <p class="title">{{item.title}}</p>
+                <!-- Rating -->
+                <div class="rating">
+                    <p>InStore</p>
+                    <p>{{item.rating.count}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

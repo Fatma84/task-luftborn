@@ -1,0 +1,7 @@
+<!-- Left Side: Profile -->
+<app-profile-side class="left-side"></app-profile-side>
+
+<!-- Right Side: Items -->
+<div class="right-side">
+  <app-item-boxes *ngFor="let item of items; let i = index" [item]="item" [color]="colors[i]"></app-item-boxes>
+</div>
